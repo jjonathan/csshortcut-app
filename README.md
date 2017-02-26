@@ -16,3 +16,9 @@ See [Releases](https://github.com/afonsopacifer/open-source-boilerplate/releases
 
 ## License
 [MIT License](https://github.com/afonsopacifer/open-source-boilerplate/blob/master/LICENSE.md)
+
+## Using stylus
+
+* Install [stylus](http://stylus-lang.com/)
+* Open your console and ```cd my/project/root/css```
+* Run ```stylus -w main.styl -o main.css```
