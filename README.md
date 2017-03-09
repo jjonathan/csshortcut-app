@@ -17,8 +17,13 @@ See [Releases](https://github.com/afonsopacifer/open-source-boilerplate/releases
 ## License
 [MIT License](https://github.com/afonsopacifer/open-source-boilerplate/blob/master/LICENSE.md)
 
-## Using stylus
+## Using [Stylus](http://stylus-lang.com/)
 
 * Install [stylus](http://stylus-lang.com/)
 * Open your console and ```cd my/project/root/css```
 * Run ```stylus -w main.styl -o main.css```
+
+## Using [PUG](https://pugjs.org/api/getting-started.html)
+* Install `npm install pug -g`
+* Open your console and `cd my/project/root/css`
+* Run `pug file.pug -w` (the flag -w is for watch)
