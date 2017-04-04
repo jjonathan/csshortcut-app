@@ -1,13 +1,19 @@
 {
   "name": "csshortcut-app",
-  "version": "1.0.0",
-  "description": "> Descrição do bagulho",
+  "version": "0.1.0",
+  "description": "Projeto desenvolvido ao longo do curso CSShortcut",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-  }
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jjonathan/csshortcut-app.git"
+  },
+  "author": "jjonathan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jjonathan/csshortcut-app/issues"
+  },
+  "homepage": "https://github.com/jjonathan/csshortcut-app#readme"
 }
