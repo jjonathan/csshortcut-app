@@ -19,7 +19,7 @@
 	|   ├── assets/
 	|   |   ├── img/
 	|   |   ├── scripts/
-	|   |   |   └── script.
+	|   |   |   └── script.js
 	|   |   └── styles/
 	|   |       └── style.styl
 	|   ├── partials/
