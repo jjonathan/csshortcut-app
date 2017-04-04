@@ -1,6 +1,37 @@
 # CSShortcut App
 
-> Descrição do bagulho
+> App desenvolvido no curso de CSS [csshortcut](http://csshortcut.teachable.com/courses/144604)
+
+## Stack
+
+- Task Runner: [Gulp](http://gulpjs.com)
+- HTML Template Engine: [Pug](https://pugjs.org)
+- CSS Preprocessor: [Stylus](http://stylus-lang.com)
+
+## Folders Structure
+
+    |.
+	├── README.md
+	├── LICENSE.md
+	├── CONTRIBUTING.md
+	├── out/
+	├── src/
+	|   ├── assets/
+	|   |   ├── img/
+	|   |   ├── scripts/
+	|   |   |   └── script.
+	|   |   └── styles/
+	|   |       └── style.styl
+	|   ├── partials/
+	|   |   ├── footer.pug
+	|   |   └── header.pug
+	|   ├── layouts/
+	|   |   └── default.pug
+	|   └── index.pug
+	├── gulpfile.js
+	├── package.json
+	├── .editorconfig
+	└── .gitignore
 
 ## Versioning
 
