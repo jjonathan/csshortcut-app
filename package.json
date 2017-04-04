@@ -9,8 +9,5 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "pug": "^2.0.0-beta11",
-    "pug-cli": "^1.0.0-alpha6",
-    "stylus": "^0.54.5"
   }
 }
