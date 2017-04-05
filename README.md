@@ -2,6 +2,13 @@
 
 > App desenvolvido no curso de CSS [csshortcut](http://csshortcut.teachable.com/courses/144604)
 
+## Stack
+
+- NodeJS : [NodeJS](https://nodejs.org)
+- Task Runner: [Gulp](http://gulpjs.com)
+- HTML Template Engine: [Pug](https://pugjs.org)
+- CSS Preprocessor: [Stylus](http://stylus-lang.com)
+
 ## Run the project locally
 
 - 1 - Install [NodeJS](https://nodejs.org)
@@ -25,13 +32,6 @@ $ npm install
 ```sh
 $ gulp server
 ```
-
-
-## Stack
-
-- Task Runner: [Gulp](http://gulpjs.com)
-- HTML Template Engine: [Pug](https://pugjs.org)
-- CSS Preprocessor: [Stylus](http://stylus-lang.com)
 
 ## Folders Structure
 
@@ -57,6 +57,11 @@ $ gulp server
 	├── package.json
 	├── .editorconfig
 	└── .gitignore
+
+## Automatic Tasks
+
+- `$ gulp build`	: Compile, concat and minify all files.
+- `$ gulp server` 	: Watch the files to build and start a static server.
 
 ## Versioning
 
