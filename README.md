@@ -2,6 +2,31 @@
 
 > App desenvolvido no curso de CSS [csshortcut](http://csshortcut.teachable.com/courses/144604)
 
+## Run the project locally
+
+- 1 - Install [NodeJS](https://nodejs.org)
+
+- 2 - Prepare the environment:
+
+```sh
+$ npm install g gulp-cli
+```
+
+- 3 - Clone the project and install the dependencies:
+
+```sh
+$ git clone https://github.com/jjonathan/csshortcut-app.git
+$ cd csshortcut-app
+$ npm install
+```
+
+- 4 - Run static server and livereload:
+
+```sh
+$ gulp server
+```
+
+
 ## Stack
 
 - Task Runner: [Gulp](http://gulpjs.com)
