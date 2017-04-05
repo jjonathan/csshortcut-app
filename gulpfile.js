@@ -21,7 +21,10 @@ gulp.task('watch', function(){
 })
 
 gulp.task('serve', function(){
-    
+    connect.server({
+        root : './out'
+    })
 })
 
 gulp.task('build', ['pug', 'stylus'])
+gulp.task('server', ['serve', 'watch'])
