@@ -7,12 +7,14 @@ gulp.task('pug', function(){
     gulp.src('./src/*.pug')
         .pipe(pug())
         .pipe(gulp.dest('./out'))
+        .pipe(connect.reload())
 })
 
 gulp.task('stylus', function(){
     gulp.src('./src/assets/styles/*.styl')
         .pipe(stylus())
         .pipe(gulp.dest('./out/assets/styles/'))
+        .pipe(connect.reload())
 })
 
 gulp.task('watch', function(){
@@ -22,7 +24,8 @@ gulp.task('watch', function(){
 
 gulp.task('serve', function(){
     connect.server({
-        root : './out'
+        root : './out',
+        livereload: true
     })
 })
 
