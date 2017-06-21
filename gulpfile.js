@@ -26,7 +26,7 @@ gulp.task('imagemin', function(){
 
 gulp.task('watch', function(){
     gulp.watch(['./src/**/*.pug'], ['pug'])
-    gulp.watch(['./src/assets/styles/*.styl'], ['stylus'])
+    gulp.watch(['./src/assets/styles/**/*.styl'], ['stylus'])
     // gulp.watch(['./src/assets/img/*'], ['stylus'])
 });
 
@@ -39,3 +39,5 @@ gulp.task('serve', function(){
 
 gulp.task('build', ['pug', 'stylus', 'imagemin'])
 gulp.task('server', ['build', 'serve', 'watch'])
+
+gulp.task('default', ['server'])
