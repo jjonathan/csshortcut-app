@@ -1,9 +1,10 @@
 /* COLORS */
 
-highlight-color = #ff0066
-secondary-color = #212121
-bg-color        = #333
-branco-color    = #fff
+$highlight-color = #ff0066
+$secondary-color = #212121
+$bg-color        = #333
+$branco-color    = #fff
+$font-size       = 60px
 
 /* GLOBAL */
 *{
@@ -17,10 +18,33 @@ html, body{
 body {
 	display flex
 	flex-direction column
+	background-color $bg-color
+	font-weight 300
 }
 
 .main {
 	flex 1
+}
+
+.profile-container {
+	width 100%
+	max-width 500px
+	text-align center
+}
+
+.profile-img {
+	border-radius 50%
+}
+
+.heading-lv1 {
+	color $branco-color
+	font-family 'Lobster', cursive
+	font-size $font-size
+	margin 0
+}
+
+.paragraph {
+	color $branco-color
 }
 
 .centered {
